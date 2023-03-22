@@ -1,0 +1,7 @@
+# A generic Inertial measurement unit service.
+
+# PUBLISHED SUBJECT NAME  SUBJECT TYPE
+# gyroscope               uavcan.si.unit.angular_velocity.Vector3
+# accelerometer           uavcan.si.unit.acceleration.Vector3
+
+@extent 0  # This type is not intended for runtime use.

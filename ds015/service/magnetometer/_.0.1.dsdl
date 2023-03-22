@@ -1,0 +1,6 @@
+# A generic magnetometer sensor device, in body frame.
+
+# PUBLISHED SUBJECT NAME  SUBJECT TYPE
+# magnetic_field          uavcan.si.unit.magnetic_field_strength.Vector3
+
+@extent 0  # This type is not intended for runtime use.

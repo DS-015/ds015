@@ -1,0 +1,7 @@
+# A generic barometer service.
+
+# PUBLISHED SUBJECT NAME  SUBJECT TYPE
+# static_pressure         uavcan.si.unit.pressure.Scalar
+# static_temperature      uavcan.si.unit.temperature.Scalar
+
+@extent 0  # This type is not intended for runtime use.

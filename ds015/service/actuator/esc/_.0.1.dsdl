@@ -1,0 +1,21 @@
+#                                                   SUBJECT NAME        SUBJECT TYPE
+#  +----------------+
+#  |   Controller   |---------+------------+----... setpoint            ds015.service.actuator.common.sp.*
+#  |                |-------+-)----------+-)----... readiness           ds015.service.common.Readiness
+#  +----------------+       | |          | |
+#   ^ ^ ^ ^  ^ ^ ^ ^        v v          v v
+#   | | | |  | | | |   +---------+  +---------+
+#   | | | |  | | | |   |Drive i=0|  |Drive i=1| ...
+#   | | | |  | | | |   +---------+  +---------+
+#   | | | |  | | | |     | | | |      | | | |
+#   | | | |  | | | +-----+ | | |      | | | |       angular_velocity    uavcan.si.unit.angular_velocity.Scalar
+#   | | | |  | | +---------+ | |      | | | |       power               ds015.physics.electricity.PowerTs
+#   | | | |  | +-------------+ |      | | | |       motor_temperature   uavcan.si.unit.temperature.Scalar
+#   | | | |  +-----------------+      | | | |
+#   | | | |                           | | | |
+#   | | | +---------------------------+ | | |
+#   | | +-------------------------------+ | |
+#   | +-----------------------------------+ |
+#   +---------------------------------------+
+
+@extent 0  # This type is not intended for runtime use.
